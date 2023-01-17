@@ -15,7 +15,6 @@ public class Food : MonoBehaviour
     {
         x = Random.Range(-7.8888f, 7.8888f);
         y = Random.Range(-4f, 4f);
-        //Instantiate(food,new Vector2(x, y), Quaternion.identity);
         transform.position = new Vector2(Mathf.Round(x), Mathf.Round(y));
     }
 
